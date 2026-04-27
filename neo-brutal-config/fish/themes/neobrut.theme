@@ -1,0 +1,44 @@
+# Neobrut - A neobrutalist fish shell theme
+# Dark background, high contrast, bold accents
+#
+# Palette:
+#   bg:       #1E1E2E    fg:       #CDD6F4
+#   red:      #FF6B6B    green:    #A6E3A1
+#   blue:     #89B4FA    purple:   #CBA6F7
+#   yellow:   #FFD93D    orange:   #FAB387
+#   surface:  #313244    overlay:  #6C7086
+
+fish_color_normal CDD6F4
+fish_color_command 89B4FA
+fish_color_keyword CBA6F7
+fish_color_quote A6E3A1
+fish_color_redirection FAB387
+fish_color_end CBA6F7
+fish_color_error FF6B6B
+fish_color_param A6E3A1
+fish_color_option FAB387
+fish_color_comment 6C7086
+fish_color_selection --background=313244
+fish_color_search_match --background=313244
+fish_color_operator CBA6F7
+fish_color_escape FAB387
+fish_color_autosuggestion 6C7086
+fish_color_valid_path --underline
+fish_color_cwd A6E3A1
+fish_color_cwd_root FF6B6B
+fish_color_user 89B4FA
+fish_color_host A6E3A1
+fish_color_host_remote FFD93D
+fish_color_status FF6B6B
+fish_color_cancel FF6B6B
+fish_color_history_current --bold
+
+fish_pager_color_progress 89B4FA
+fish_pager_color_prefix FFD93D --bold
+fish_pager_color_completion CDD6F4
+fish_pager_color_description 6C7086
+fish_pager_color_selected_background --background=313244
+fish_pager_color_secondary_background
+fish_pager_color_selected_prefix FFD93D --bold
+fish_pager_color_selected_completion CDD6F4
+fish_pager_color_selected_description 6C7086
